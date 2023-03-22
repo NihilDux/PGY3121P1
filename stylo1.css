@@ -16,6 +16,7 @@ img {
     border-style: inset
 }
 
-p {
+p:hover {
     margin: 0; margin-left: 10px;
+    color: rgba(245, 245, 245, 0.5);
 }
