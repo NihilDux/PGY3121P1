@@ -1,5 +1,5 @@
-html{
-    border: 5px black; border-style: double; margin: 10px;
+html {
+    border: 5px black; border-style: double; margin: 25px;
     font-family: sans-serif;
 }
 
@@ -7,14 +7,9 @@ body {
     background-color: rgba(52, 52, 52, 0.94);
     color: whitesmoke;
 }
-a {
-    color: whitesmoke;
-    text-decoration: none;
-}
 
 div {
     display: inline-block;
-    
 }
 
 img {
@@ -22,7 +17,11 @@ img {
     border-style: inset
 }
 
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .pgris:hover {
-    
     color: rgba(245, 245, 245, 0.5);
 }
