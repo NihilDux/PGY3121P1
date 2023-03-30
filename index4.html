@@ -6,101 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Probando Bootstrap</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: red;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index4.html">Menu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="Prueba01.html">Prueba 01</a>
-              <a class="nav-link active" href="Prueba02.html">Prueba 02</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+    </form>
+  </nav>
 
-            </div>
-          </div>
-        </div>
-    </nav>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Archivos/gatos-exoticos.png" class="d-block w-100" alt="..." width="40%" height="40%">
-          </div>
-          <div class="carousel-item">
-            <img src="Archivos/just gatos.jpg" class="d-block w-100" alt="..." width="40%" height="40%">
-          </div>
-          <div class="carousel-item">
-            <img src="Archivos/Perros Poker.jpg" class="d-block w-100" alt="..." width="40%" height="40%">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-
-    <div class="card-group">
-        <div class="card">
-          <img src="Archivos/Dante Coco.jpg" class="card-img-top" alt="..." >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Archivos/gatos-exoticos.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Archivos/just gatos.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Archivos/Perros Poker.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Archivos/Dante Coco.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><a href="gato1.html" style=" text-decoration: none; color: black;">Dante Cocoliso</a></h5>
-
+            <h5 class="card-title">Dante Cocoliso</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
-        <div class="card">
+      </div>
+      <div class="col">
+        <div class="card h-100">
           <img src="Archivos/gatete2.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><a href="gato2.html" style=" text-decoration: none; color: black;">Molly</a></h5>
-           
+            <h5 class="card-title">Molly</h5>
+            <p class="card-text">This is a short card.</p>
           </div>
         </div>
-        <div class="card">
+      </div>
+      <div class="col">
+        <div class="card h-100">
           <img src="Archivos/gatete3.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><a href="gato3.html" style=" text-decoration: none; color: black;">Manchita</a></h5>
-            
+            <h5 class="card-title">Manchita</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
       </div>
-
-      <div class="card-group">
-        <div class="card">
+      <div class="col">
+        <div class="card h-100">
           <img src="Archivos/pitu.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><a href="perro1.html" style=" text-decoration: none; color: black;">Pitu</a></h5>
-            
-          </div>
-        </div>
-        <div class="card">
-          <img src="Archivos/perro2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><a href="perro2.html" style=" text-decoration: none; color: black;">Scooby</a></h5>
-          
-          </div>
-        </div>
-        <div class="card">
-          <img src="Archivos/perro3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><a href="perro3.html" style=" text-decoration: none; color: black;">SnopGood</a></h5>
-          
+            <h5 class="card-title">Pitu</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Archivos/perro2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Scooby</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Archivos/perro3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SnopGood</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      
+
+
+    </div>
+
+      
+  </div>
     
 </body>
 </html>
