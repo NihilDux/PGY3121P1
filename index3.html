@@ -4,48 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="PGY2131" content="width=device-width, initial-scale=1.0">
-    <title>Inicio 3</title>
+    <title>Inicio</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
-
 <body>
-    <link rel="stylesheet" href="stylo1.css">
-    <!--<div style="width: 20%; float: left; position: absolute; margin: 2%;"></div>-->
-    <div class="btn-group">
-        <button type="button" class="btn btn-group" class="pgris"><a href="index.html">Inicio</a></button>
-        <button type="button" class="btn btn-group" class="pgris"><a href="nosotros.html">Nosotros</a></button>
-        <button type="button" class="btn btn-group" class="pgris"><a href="gatos.html">Gatitos</a></button>
-        <button type="button" class="btn btn-group" class="pgris"><a href="perros.html">Perritos</a></button>
-        <button type="button" class="btn btn-group" class="pgris"><a href="contactos.html">Contactos</a></button>
-    </div>
+  <style>
+    a {
+        color: black;
+        text-decoration: none;
+      }
+  </style>
+  
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+      <button class="btn btn-outline-success me-2" type="button"><a href="index3.html">Inicio</a></button>
+      <button class="btn btn-outline-success me-2" type="button"><a href="nosotros.html">Nosotros</a></button>
+      <button class="btn btn-outline-success me-2" type="button"><a href="gatos.html">Gatitos</a></button>
+      <button class="btn btn-outline-success me-2" type="button"><a href="perros.html">Perros</a></button>
+      <button class="btn btn-outline-success me-2" type="button"><a href="contactos.html">Contacto</a></button>
+    </form>
+  </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Archivos/nosotros.avif" class="d-block w-100" alt="">
-        </div>
-        <div class="carousel-item">
-            <img src="Archivos/nosotros.avif" class="d-block w-100" alt="">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Archivos/gatos-exoticos.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="Archivos/nosotros.avif" class="d-block w-100" alt="">
+          <img src="Archivos/just gatos.jpg" class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+          <img src="Archivos/Perros Poker.jpg" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <a href="gato1.html"><img src="Archivos/Dante Coco.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Dante Cocoliso</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="gato2.html"><img src="Archivos/gatete2.jpeg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Molly</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="gato3.html"><img src="Archivos/gatete3.jpeg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Manchita</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="perro1.html"><img src="Archivos/pitu.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Pitu</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="perro2.html"><img src="Archivos/perro2.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Scooby</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="perro3.html"><img src="Archivos/perro3.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">SnopGood</h5>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
